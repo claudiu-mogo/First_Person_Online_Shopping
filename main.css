@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#leave_page{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: fit-content;
+    height: 50px;
+    z-index: 100;
+}
+
+#prediction{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(128, 194, 244, 0.77);
+    width: fit-content;
+    height: fit-content;
+    z-index: 100;
+    padding: 10px;
+    text-align: center;
+}
+
+#current-item{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    background-color: rgba(96, 173, 231, 0.77);
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
+    z-index: 100;
+}
+
+/*# sourceMappingURL=main.css.map*/
